@@ -3,18 +3,13 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "lint": "expo lint",
-	"jest": {
-  "preset": "react-native",
-  "collectCoverage": true,
-  "coverageReporters": ["lcov"],
-  "coverageDirectory": "coverage"
-}
+  "start": "expo start",
+  "reset-project": "node ./scripts/reset-project.js",
+  "android": "expo start --android",
+  "ios": "expo start --ios",
+  "web": "expo start --web",
+  "lint": "expo lint",
+  "test": "jest --coverage"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
